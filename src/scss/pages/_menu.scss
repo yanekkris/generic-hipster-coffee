@@ -1,0 +1,44 @@
+*{
+    //border: 1px solid red;
+    //margin: 5px;
+
+}
+.main__content{
+    display: flex;
+    //flex-direction: column;
+    flex-wrap: wrap;
+
+
+    //max-height: 1000px;
+
+.main-cards{
+    display: flex;
+    //max-width: 30%;
+    //margin-right: 10%;
+    flex-direction: column;
+    flex-basis: 500px;
+    border: 1px solid black;
+
+    &__title{
+        display: flex;
+    }
+    &__content{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+}
+.menu-item{
+    display: flex;
+    justify-content: space-between;
+    //flex-direction: column;
+
+    &__product{
+        display: flex;
+    }
+
+    &__price{
+        display: flex;
+    }
+}
