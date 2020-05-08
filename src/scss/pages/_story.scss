@@ -1,7 +1,9 @@
 .story{
+    width: 100%;
+    margin: 0;
     &__who{
         width: 100%;
-        height: 30rem;
+        height: 45rem;
         background: url(/img/coffee.jpg) no-repeat center center;
         background-size: cover;
         color: white;
@@ -25,6 +27,48 @@
         p{
             font-size: 1.1rem;
             line-height: 1.5rem;
+        }
+    }
+    &__employees{
+        width: 80%;
+        margin: 3rem auto;
+    }
+}
+
+.story__img1{
+    width: 400px;
+    height: 450px;
+    background: url(/img/HarolMaya.png) no-repeat center center;
+    background-size: cover;
+}
+.story__img2{
+    width: 400px;
+    height: 450px;
+    background: url(/img/damiano.jpg) no-repeat center center;
+    background-size: cover;
+}
+.story__img3{
+    width: 400px;
+    height: 450px;
+    background: url(/img/DSC_0055.JPG) no-repeat center center;
+    background-size: cover;
+}
+.story__employee{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+.story__desc{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    h1{
+        font-weight: 300;
+        font-size: 4rem;
+        span{
+            color: $text_orange;
         }
     }
 }
