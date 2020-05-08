@@ -5,8 +5,11 @@
     flex-direction: column;
     justify-content: center;
     margin: 3rem auto;
-    h1{
+    h1, h2{
         font-weight: 300;
+        @media(max-width: 730px){
+           text-align: center;
+        }
     }
 }
 .main__row{
@@ -14,15 +17,12 @@
     //display: column;
     //flex-direction: column;
     flex-wrap: wrap;
+    text-align: center;
     justify-content: space-between;
-    //width: 48%;
-    //min-width: 400px;
-    //max-width: 400px;
-    //max-height: 200px;
-    //align-items: flex-start;
-
-
-    //max-height: 1000px;
+    @media(max-width: 730px){
+        flex-direction: column;
+        align-content: space-around;
+    }
     img{
         width: 100%;
     }
@@ -37,6 +37,9 @@
     //flex-basis: 500px;
     //border: 1px solid black;
     width: 48%;
+    @media(max-width: 730px){
+        width: 70%;
+    }
 
     &__title{
         display: flex;
