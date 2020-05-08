@@ -9,28 +9,42 @@
 <body>
 
     <header class="header">
-        <img src="/img/logo.svg"  class="header__img "alt="Logo">
-        <nav class="header__nav">
-            <a href="#" class="header__item--darker">Home</a>
-            <a href="#" class="header__item">Menu</a>
-            <a href="#" class="header__item">Coffee</a>
-            <a href="#" class="header__item--light">Out story</a>
-        </nav>
+        <div class="header__container">
+            <img src="/img/logo.svg"  class="header__img "alt="Logo">
+            <nav class="header__nav">
+                <a href="#" class="header__item header__item--darker">Home</a>
+                <a href="menu.html" class="header__item">Menu</a>
+                <a href="coffeorigin.html" class="header__item">Coffee</a>
+                <a href="#" class="header__item">Our story</a>
+            </nav>
+        </div>
     </header>
 
     <main>
 
         <section class="origin">
 
-            <h1>Coffe</h1>
-            <p>We work with specialty coffe from current crops which is carefullz roasted. Our coffe is fruity, juicy and never boring. We bring you the best from leading european specialty roasteries, currently mostly from <strong>Square Mile Coffe Roasters</strong>, a multi award winning coffe roasting company based in East London.</p>
-            <h3>You can currently buy these beans in 350g bags</h3>
+            <div class="description">
+                <h1>Coffe</h1>
+                <p>We work with specialty coffe from current crops which is carefullz roasted. Our coffe is fruity, juicy and never boring. We bring you the best from leading european specialty roasteries, currently mostly from <strong>Square Mile Coffe Roasters</strong>, a multi award winning coffe roasting company based in East London.</p>
+                <h3>You can currently buy these beans in 350g bags</h3>
+            </div>
 
             <div class="bags">
 
                 <div class="coffe-selection">
                     <div class="coffe-selection__title">
-                        <h2>Quejiana (Guatemala)</h2>
+                        <h2 class="coffe-selection__label">Quejiana (Guatemala)</h2>
+                        <img src="img/smcr-quejina.jpg" alt="bags" class="coffe-selection__img">  
+                    </div> 
+                    <div class="coffe-selection__back">  
+                        <h3 >redcurrant/honeysuckel/juicy</h3>
+                        <div class="coffe-selection__text"> Fruit redcurrant and sweet honeysuckel flavours. An incredibly juicy coffe which we struggled to decide on the right berry descriptor, but raspberry, blackberry and blueberry were also in the running!</div>
+                    </div>
+                </div>
+                <div class="coffe-selection">
+                    <div class="coffe-selection__title">
+                        <h2 class="coffe-selection__label">Quejiana (Guatemala)</h2>
                         <img src="img/smcr-quejina.jpg" alt="bags" class="coffe-selection__img">  
                     </div> 
                     <div class="coffe-selection__back">  
@@ -40,7 +54,7 @@
                 </div>
                 <div class="coffe-selection">
                     <div class="coffe-selection__title">
-                        <h2>Quejiana (Guatemala)</h2>
+                        <h2 class="coffe-selection__label">Quejiana (Guatemala)</h2>
                         <img src="img/smcr-quejina.jpg" alt="bags" class="coffe-selection__img">  
                     </div> 
                     <div class="coffe-selection__back">  
@@ -50,17 +64,7 @@
                 </div>
                 <div class="coffe-selection">
                     <div class="coffe-selection__title">
-                        <h2>Quejiana (Guatemala)</h2>
-                        <img src="img/smcr-quejina.jpg" alt="bags" class="coffe-selection__img">  
-                    </div> 
-                    <div class="coffe-selection__back">  
-                        <h3>redcurrant/honeysuckel/juicy</h3>
-                        <div class="coffe-selection__text"> Fruit redcurrant and sweet honeysuckel flavours. An incredibly juicy coffe which we struggled to decide on the right berry descriptor, but raspberry, blackberry and blueberry were also in the running!</div>
-                    </div>
-                </div>
-                <div class="coffe-selection">
-                    <div class="coffe-selection__title">
-                        <h2>Quejiana (Guatemala)</h2>
+                        <h2 class="coffe-selection__label">Quejiana (Guatemala)</h2>
                         <img src="img/smcr-quejina.jpg" alt="bags" class="coffe-selection__img">  
                     </div> 
                     <div class="coffe-selection__back">  
