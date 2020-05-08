@@ -29,7 +29,9 @@
     //max-height: 1000px;
 
     img{
-        width: 100%;
+        display: flex;
+        flex-basis: 100%;
+        flex: auto;
     }
 
 
@@ -71,8 +73,3 @@
     }
 }
 
-img{
-    display: flex;
-    flex-basis: 100%;
-    flex: auto;
-}
