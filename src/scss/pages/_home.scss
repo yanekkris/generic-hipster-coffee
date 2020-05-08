@@ -1,0 +1,47 @@
+.main{
+    width: 80%;
+    margin: 3rem auto;
+    &__first{
+        text-transform: uppercase;
+        img{
+            width: 100%;
+        }
+        h1{
+            font-size: 2rem;
+            font-weight: 300;  
+        }
+        h2{
+            font-size: 1.5rem;
+            font-weight: 300;
+        }
+    }
+    &__info{
+        display: flex;
+        flex-direction: row;
+        &__opening{
+            flex-grow: 1;
+        }
+        &__number{
+            flex-grow: 1;
+        }
+        &__address{
+            flex-grow: 2;
+        }
+        ul{
+            padding:0;
+        }
+        li{
+            list-style: none;
+            margin: 0;
+            padding-left: 0;
+            font-weight: 200;
+            line-height: 2rem;
+        }
+        h2{
+            font-weight: 200;
+            text-transform: uppercase;
+        }
+
+    }
+
+}
