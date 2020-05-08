@@ -1,11 +1,25 @@
 .header{
     width: 100%;
-    padding: 2rem 3rem;
-    display: flex;
-    &__img{
-        width: 7rem;
+    padding: 2rem 0rem;
+    background: $header_bg;
+    &__container{
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
     }
-    &__nav{
-        display
+    &__img{
+        width: 9rem;
+        display: block;
+    }
+    &__item{
+        text-decoration: none;
+        color: rgb(170, 169, 169);
+        padding: 1.5rem 1rem;
+        &--darker{
+            color: grey;
+        }
     }
 }
