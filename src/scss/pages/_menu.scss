@@ -28,11 +28,7 @@
 
     //max-height: 1000px;
 
-    img{
-        display: flex;
-        flex-basis: 100%;
-        flex: auto;
-    }
+    
 
 
 
@@ -40,11 +36,13 @@
     display: flex;
     //max-width: 30%;
     //margin-right: 10%;
-    width: 45%;
+    //width: 45%;
     flex-direction: column;
     padding: 1em;
+    flex-wrap: wrap;
     //flex-basis: 500px;
     //border: 1px solid black;
+    flex-grow: 1;
 
     &__title{
         display: flex;
@@ -63,6 +61,7 @@
     //flex-direction: column;
     padding-top: 0.5em;
     padding-right: 0.5em;
+    flex-wrap: wrap;
 
     &__product{
         display: flex;
@@ -73,3 +72,8 @@
     }
 }
 
+.img-footer{
+    display: flex;
+    flex-basis: 100%;
+    flex: auto;
+}
