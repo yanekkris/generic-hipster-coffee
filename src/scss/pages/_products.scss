@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    width: 800px;
+    
+}
+
+html, body {
+    font-family: sans-serif;
+}
+
+
+.bags {
+   
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin-left: 40px;
+
+}
+
+
+
+
+.coffe-selection {
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    
+    
+
+    img {
+        width: 300px;
+        height: auto;
+    }
+
+    &__title {
+        background-color: lightblue;
+        width: 300px;
+    }
+
+    &__back {
+        background-color: lightskyblue;
+        width: 300px;
+    }
+
+
+
+}
+
+h2 {
+    font-size: 1rem;
+    padding: 10px;
+}
+
+h3 {
+    font-size: 0.4rem;
+    padding: 10px;
+}
+
+.coffe-selection__text {
+    width: 300px;
+    font-size: 0.5rem;
+    
+    
+}
