@@ -11,6 +11,9 @@
         align-items: center;
         justify-content: space-between;
         color: #fff;
+        @media(max-width: 460px){
+            width: 90%;
+        }
     }
     &__img{
         width: 9rem;
