@@ -19,6 +19,7 @@
     flex-wrap: wrap;
     text-align: center;
     justify-content: space-between;
+    font-weight: 300;
     @media(max-width: 730px){
         flex-direction: column;
         align-content: space-around;
