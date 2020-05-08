@@ -5,12 +5,16 @@
     flex-direction: column;
     justify-content: center;
     margin: 3rem auto;
+    h1{
+        font-weight: 300;
+    }
 }
 .main__row{
     display: flex;
     //display: column;
     //flex-direction: column;
     flex-wrap: wrap;
+    justify-content: space-between;
     //width: 48%;
     //min-width: 400px;
     //max-width: 400px;
@@ -19,28 +23,25 @@
 
 
     //max-height: 1000px;
-
     img{
         width: 100%;
     }
-
-
 
 .main-cards{
     display: flex;
     //max-width: 30%;
     //margin-right: 10%;
-    //width: 45%;
     flex-direction: column;
-    padding: 1em;
+    padding-bottom: 1em;
     flex-wrap: wrap;
     //flex-basis: 500px;
     //border: 1px solid black;
-    flex-grow: 1;
+    width: 48%;
 
     &__title{
         display: flex;
         padding-top: 1em;
+        font-size: 1.5em;
     }
     &__content{
         display: flex;
